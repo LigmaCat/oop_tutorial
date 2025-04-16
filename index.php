@@ -8,17 +8,13 @@
 <body>
 
 <?php
+require_once 'Classes/car.php';
 
-$brand = "Ferrari";
-$color = "Red";
+$car01 = new Car("Ferari", "Blue");
 
-function getCarInfo ($brand, $color) {
-
-    return "Brand: ". $brand . ", Color: " . $color;
-
-}
-
-echo getCarInfo($brand, $color);
+echo $car01->getCarInfo();
+echo "<br>";
+echo "vehicle type: " . $car01->vehicleType;
 
 ?>
     

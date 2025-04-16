@@ -24,13 +24,5 @@ class Car
 
 }
 
-$car01 = new Car("Ferari", "Blue");
-//acsess method / function
-echo $car01->getCarInfo();
-echo "<br>";
-//acsess proparty
-echo $car01->vehicleType;
 
-$car02 = new Car("Volvo", "Red");
 
-$car03 = new Car("Wolfenstain", "White");
