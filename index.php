@@ -12,9 +12,9 @@ require_once 'Classes/car.php';
 
 $car01 = new Car("Ferari", "Blue");
 
-$car01->setcolor("yellow");
+$car01->setcolor("Green");
 
-echo $car01->getcolor("yellow");
+echo $car01->getcolor();
 
 echo "<br>";
 
