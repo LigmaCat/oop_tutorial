@@ -6,7 +6,6 @@ class Car
     //properties / fields
     private $brand ;
     private $color ;
-    public $vehicleType = "car";
     
     //Constructor
     public function __construct($brand, $color = "none") 
@@ -14,6 +13,35 @@ class Car
         $this->brand = $brand;
         $this->color = $color;
     }
+    
+
+    // Getter & setter methods
+
+    //Getter method
+    public function getBrand()
+    {
+        return $this->brand;
+    }
+
+    //Setter method
+    public function setBrand($brand)
+    {
+        $this->brand = $brand;
+    }
+
+     //Getter method
+     public function getcolor()
+     {
+         return $this->color;
+     }
+ 
+     //Setter method
+     public function setcolor($color)
+     {
+         $this->color = $color;
+     }
+  
+ 
 
     //Method
     public function getCarInfo () 
